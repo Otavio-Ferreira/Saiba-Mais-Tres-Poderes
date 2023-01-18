@@ -1,0 +1,19 @@
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+footer p{
+    margin-top: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

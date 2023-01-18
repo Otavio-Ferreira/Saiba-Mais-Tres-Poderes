@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiba Mais 3-Poderes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div id="conteudo">
+    <header>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Executivo
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" onclick="president.informations()">Presidente</a></li>
+          <li><a class="dropdown-item" href="#" onclick="governor.informations()">Governador</a></li>
+          <li><a class="dropdown-item" href="#" onclick="mayor.informations()">Prefeito</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Lesgislativo
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" onclick="senator.informations()">Senador</a></li>
+          <li><a class="dropdown-item" href="#" onclick="congressperson.informations()">Deputado</a></li>
+          <li><a class="dropdown-item" href="#" onclick="cityCouncilor.informations()">Vereador</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Judiciário
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" onclick="federalCourtJustice.informations()">STF</a></li>
+          <li><a class="dropdown-item" href="#" onclick="supremeCourtJustice.informations()">STJ</a></li>
+          <li><a class="dropdown-item" href="#" onclick="courts.informations()">Tribunais</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="resposta">
+        <div class="text">
+          <div class="infor">
+            <h2>Função</h2>
+            <p id="funcao"></p>
+          </div>
+
+          <div class="infor">
+            <h2>Apoio</h2>
+            <p id="apoio"></p>
+          </div>
+
+          <div class="infor">
+            <h2>Salário</h2>
+            <p id="salario"></p>
+          </div>
+          
+          <div class="infor" id="maispai">
+            <h2><a href="" id="mais" target="_blank">Mais Informações sobre o cargo</a></h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="" alt="" id="imagem">
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <p>Criado apenas para fins educacionais - <a href="mailto:otavioferreira4343@gmail.com">Otavio Ferreira</a></p>
+  </footer>
+
+    <script src="script.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>

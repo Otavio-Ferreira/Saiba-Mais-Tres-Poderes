@@ -1,0 +1,84 @@
+main{
+    width: 1200px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.resposta{
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 5px 5px 2px black;
+}
+
+.text{
+    width: 300px;
+    height: 550px;
+    background-color: #606060;
+    border-radius: 10px;
+    border: solid 2px white;
+}
+
+.image{
+    width: 600px;
+    height: 550px;
+    background-color: #606060;
+    border-radius: 10px;
+    border: solid 2px white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#imagem{
+    width: 580px;
+    height: 400px;
+    display: none;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.infor{
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    padding: 5px;
+}
+
+.infor p{
+    text-align: justify;
+}
+
+#maispai{
+    text-align: center;
+}
+
+#mais{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#mais:hover{
+    text-decoration: underline;
+}

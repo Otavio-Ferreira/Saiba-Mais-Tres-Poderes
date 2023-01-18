@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #202020;
+    width: 220px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.dropdown{
+    width: 200px;
+    height: 180px;
+    background-color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 180px;
+}
